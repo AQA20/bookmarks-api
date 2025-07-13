@@ -89,10 +89,17 @@ $ npm run test:e2e
 
 ### 🔐 Auth
 
-| Method | Endpoint       | Description           |
-|--------|----------------|-----------------------|
-| POST   | `/auth/signup` | Register a new user   |
-| POST   | `/auth/signin` | Login and get JWT     |
+| Method | Endpoint        | Description           |
+|--------|---------------- |-----------------------|
+| POST   | `/auth/signup`  | Register a new user   |
+| POST   | `/auth/signin`  | Login and get JWT     |
+
+### 👤 Users
+
+| Method | Endpoint         | Description           |
+|--------|------------------|-----------------------|
+| GET    | `/users/profile` | Get user              |
+| PATCH  | `/users/`        | Update user           |
 
 ### 🔖 Bookmarks (Protected)
 
